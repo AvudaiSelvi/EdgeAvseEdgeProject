@@ -7,15 +7,17 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="EdgeRepo">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">31-07-2023 13:33:42 GMT</value>
   <null name="extendedProperties"/>
-  <value name="lastUpdated">2023-07-31T13:34:36.692309007Z</value>
+  <value name="lastUpdated">2023-07-31T14:01:25.818299886Z</value>
   <value name="wmProjectId">fl25279716a5f6498a3f38b0</value>
   <value name="isProjectPackage">true</value>
   <value name="creator">AvudaiSelvi S</value>

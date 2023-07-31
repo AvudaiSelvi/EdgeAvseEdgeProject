@@ -10,6 +10,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.396
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.396
 packages:
 - name: EdgeAvseEdgeProject
   gitServerName: SelviGitHub
@@ -17,3 +21,9 @@ packages:
   gitUsername: AvudaiSelvi
   gitToken: edge.scaffolding.EdgeAvseEdgeProject.SelviGitHub.gitToken
   gitBranch: master
+- name: EdgeRepo
+  gitServerName: SelviGitHub
+  gitUrl: https://github.com/AvudaiSelvi
+  gitUsername: AvudaiSelvi
+  gitToken: edge.scaffolding.EdgeRepo.SelviGitHub.gitToken
+  gitBranch: main
