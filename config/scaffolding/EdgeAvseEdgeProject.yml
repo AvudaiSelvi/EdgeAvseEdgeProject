@@ -811,20 +811,20 @@ configurationVariables:
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
   : "0"
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
-  : OriginDemoDb
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
   : "1000"
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
-  : "1433"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+  : OriginDemoDb
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
   : sa
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+  : "1433"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
   : MSSQL
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
-  : NO_TRANSACTION
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+  : NO_TRANSACTION
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
   : Progress? DataDirect?
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
