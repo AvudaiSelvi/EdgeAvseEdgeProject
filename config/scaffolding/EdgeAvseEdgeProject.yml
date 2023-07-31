@@ -14,6 +14,24 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.396
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.396
+- serviceName: TestOrigin:getAccountDetails
+  packages:
+  - name: EdgeRepo
+    version: "1.0"
+- serviceName: edge.avseedgeproject.integrations:TestEgdeServiceOnSaaS
+  packages:
+  - name: EdgeAvseEdgeProject
+    version: "1.0"
+  - name: EdgeRepo
+    version: "1.0"
+- serviceName: pub.io:streamToString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.396
 packages:
 - name: EdgeAvseEdgeProject
   gitServerName: SelviGitHub
