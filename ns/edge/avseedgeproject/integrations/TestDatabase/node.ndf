@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">avse</value>
-    <value name="lastModifiedDate">1690818427356</value>
+    <value name="lastModifiedDate">1690818526006</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">bfc8400bd58144b2b6c5b1ce9e87b491</value>
       <null name="group"/>
@@ -78,11 +78,11 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_3</value>
+          <value name="connectionName">Database_4</value>
           <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_3</value>
+        <value name="connectionNSName">edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_4</value>
         <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>

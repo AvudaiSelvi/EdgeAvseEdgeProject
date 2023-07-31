@@ -153,6 +153,54 @@ services:
       value: "10"
     - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
       value: "0"
+  - name: edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4
+    properties:
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.datasourceClass
+      value: com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.driverType
+      value: Progress? DataDirect?
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.dbType
+      value: MSSQL
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.password
+      value: "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.databaseName
+      value: OriginDemoDb
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.user
+      value: sa
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.serverName
+      value: SAG-85LYGL3
 - serviceName: pub.date:getCurrentDateString
   packages:
   - name: WmPublic
@@ -320,6 +368,54 @@ services:
       value: "10"
     - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
       value: "0"
+  - name: edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4
+    properties:
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.datasourceClass
+      value: com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.driverType
+      value: Progress? DataDirect?
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.dbType
+      value: MSSQL
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.password
+      value: "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.databaseName
+      value: OriginDemoDb
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.user
+      value: sa
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.serverName
+      value: SAG-85LYGL3
 - serviceName: pub.io:streamToString
   packages:
   - name: WmPublic
@@ -459,6 +555,54 @@ services:
       value: NO_TRANSACTION
     - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
       value: ""
+  - name: edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4
+    properties:
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.driverType
+      value: Progress? DataDirect?
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.dbType
+      value: MSSQL
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.serverName
+      value: SAG-85LYGL3
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.password
+      value: "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.user
+      value: sa
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.datasourceClass
+      value: com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.databaseName
+      value: OriginDemoDb
 - serviceName: edge.avseedgeproject.integrations:TestDatabase
   packages:
   - name: EdgeAvseEdgeProject
@@ -594,35 +738,93 @@ services:
       value: NO_TRANSACTION
     - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
       value: ""
+  - name: edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4
+    properties:
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.datasourceClass
+      value: com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.driverType
+      value: Progress? DataDirect?
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.dbType
+      value: MSSQL
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.password
+      value: "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.databaseName
+      value: OriginDemoDb
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.user
+      value: sa
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.serverName
+      value: SAG-85LYGL3
 configurationVariables:
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
   : "10"
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
-  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
+  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.serverName
   : SAG-85LYGL3\SQLEXPRESS
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.minimumPoolSize
+  : "0"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.maximumPoolSize
+  : "10"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.heartBeatInterval
   : "0"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
   : "0"
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
-  : OriginDemoDb
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
   : "1000"
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
-  : "1433"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+  : OriginDemoDb
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
   : sa
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+  : "1433"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
   : MSSQL
-  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
-  : NO_TRANSACTION
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+  : NO_TRANSACTION
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
   : Progress? DataDirect?
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
@@ -635,6 +837,10 @@ configurationVariables:
   : loginTimeout=60;
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
   : "false"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.user
+  : sa
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.heartBeatInterval
+  : "0"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
   : "false"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
@@ -659,8 +865,16 @@ configurationVariables:
   : "0"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.dbType
   : MSSQL
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolable
+  : "false"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : Progress? DataDirect?
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.driverType
+  : Progress? DataDirect?
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupRetryCount
+  : "0"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionEnabled
   : "false"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
@@ -671,6 +885,8 @@ configurationVariables:
   : sa
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
   : loginTimeout=60;
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.startupBackoffSecs
+  : "10"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
   : MSSQL
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
@@ -683,8 +899,12 @@ configurationVariables:
   : "10"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionEnabled
+  : "false"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
   : mySQLServer
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.serverName
+  : SAG-85LYGL3
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolable
   : "false"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
@@ -695,6 +915,10 @@ configurationVariables:
   : "1"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
   : "1000"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.password
+  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
@@ -705,6 +929,8 @@ configurationVariables:
   : "1000"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
   : "false"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.serverName
   : SAG-85LYGL3\SQLEXPRESS
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.otherProperties
@@ -713,6 +939,12 @@ configurationVariables:
   : "0"
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
   : "1"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_4.connectionSettings.databaseName
+  : OriginDemoDb
   ? artConnection.EdgeAvseEdgeProject.edge.avseedgeproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
   : sa
 packages:
