@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.avseedgeproject.integrations:TestEdgeRunTime
+  packages:
+  - name: EdgeAvseEdgeProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.396
 packages:
 - name: EdgeAvseEdgeProject
   gitServerName: SelviGitHub
