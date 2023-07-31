@@ -26,6 +26,82 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
           <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">Zone</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">Category</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">Discount</value>
+              <value name="field_type">object</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="wrapper_type">java.lang.Integer</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">record</value>
+              <value name="node_subtype">unknown</value>
+              <value name="is_public">false</value>
+              <value name="field_name">overrideCredentials</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">field</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">$dbUser</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">field</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="is_public">false</value>
+                  <value name="field_name">$dbPassword</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
           </array>
           <value name="modifiable">true</value>
         </record>
@@ -110,5 +186,5 @@
   <value name="is_public">false</value>
   <value name="node_type">service</value>
   <value name="IRTNODE_VERSION">1</value>
-  <value name="IRTNODE_PROPERTY">CwQAAAABBQEEGQBjAG8AbQAuAHcAbQAuAGQAYQB0AGEALgBJAFMATQBlAG0ARABhAHQAYQBJAG0AcABsBBMAcwBlAHIAdgBpAGMAZQBUAGUAbQBwAGwAYQB0AGUATgBhAG0AZQQlAGMAbwBtAC4AdwBtAC4AYQBkAGEAcAB0AGUAcgAuAHcAbQBqAGQAYgBjAC4AcwBlAHIAdgBpAGMAZQBzAC4ASQBuAHMAZQByAHQEDwBtAGUAdABhAGQAYQB0AGEAVgBlAHIAcwBpAG8AbgsEAAAAAAQOAGMAbwBuAG4AZQBjAHQAaQBvAG4ATgBhAG0AZQRbAGUAZABnAGUALgBhAHYAcwBlAGUAZABnAGUAcAByAG8AagBlAGMAdAAuAFcAbQBKAEQAQgBDAEEAZABhAHAAdABlAHIALgBjAG8AbQBfAHcAbQBfAGEAZABhAHAAdABlAHIAXwB3AG0AagBkAGIAYwBfAEoARABCAEMAQQBkAGEAcAB0AGUAcgAuAGMAbwBuAG4AZQBjAHQAaQBvAG4AcwA6AEQAYQB0AGEAYgBhAHMAZQBfADMEEgB0AGUAbQBwAGwAYQB0AGUAUAByAG8AcABlAHIAdABpAGUAcwUBAAIEEwB0AGEAYgBsAGUAcwAuAHQAYQBiAGwAZQBJAG4AZABlAHgAZQBzCgAEEABqAGEAdgBhAC4AbABhAG4AZwAuAFMAdAByAGkAbgBnBBIAdABhAGIAbABlAHMALgBjAGEAdABhAGwAbwBnAE4AYQBtAGUKAAAOBBEAdABhAGIAbABlAHMALgBzAGMAaABlAG0AYQBOAGEAbQBlCgAADgQQAHQAYQBiAGwAZQBzAC4AdABhAGIAbABlAE4AYQBtAGUKAAAOBBAAdABhAGIAbABlAHMALgB0AGEAYgBsAGUAVAB5AHAAZQoAAA4EEQB0AGEAYgBsAGUAcwAuAGMAbwBsAHUAbQBuAEkAbgBmAG8KAAAOBBUAdABhAGIAbABlAHMALgByAGUAYQBsAFMAYwBoAGUAbQBhAE4AYQBtAGUKAAAOBA0AdQBwAGQAYQB0AGUALgBjAG8AbAB1AG0AbgoAAA4EEQB1AHAAZABhAHQAZQAuAGMAbwBsAHUAbQBuAFQAeQBwAGUKAAAOBA8AdQBwAGQAYQB0AGUALgBKAEQAQgBDAFQAeQBwAGUKAAAOBBEAdQBwAGQAYQB0AGUALgBlAHgAcAByAGUAcwBzAGkAbwBuCgAADgQSAHUAcABkAGEAdABlAC4AaQBuAHAAdQB0AEMAbwBsAHUAbQBuCgAADgQWAHUAcABkAGEAdABlAC4AaQBuAHAAdQB0AEMAbwBsAHUAbQBuAFQAeQBwAGUKAAAOBBQAdQBwAGQAYQB0AGUALgBpAG4AcAB1AHQASgBEAEIAQwBUAHkAcABlCgAADgQRAHUAcABkAGEAdABlAC4AaQBuAHAAdQB0AEYAaQBlAGwAZAoAAA4EFQB1AHAAZABhAHQAZQAuAGkAbgBwAHUAdABGAGkAZQBsAGQAVAB5AHAAZQoAAA4EEwB1AHAAZABhAHQAZQAuAHEAdQBlAHIAeQBUAGkAbQBlAE8AdQB0BAIALQAxBBIAcgBlAHMAdQBsAHQALgByAGUAcwB1AGwAdABGAGkAZQBsAGQEAAQWAHIAZQBzAHUAbAB0AC4AcgBlAHMAdQBsAHQARgBpAGUAbABkAFQAeQBwAGUEEQBqAGEAdgBhAC4AbABhAG4AZwAuAEkAbgB0AGUAZwBlAHIEBgB1AHMAZQByAGkAZAQbAG8AdgBlAHIAcgBpAGQAZQBDAHIAZQBkAGUAbgB0AGkAYQBsAHMALgAkAGQAYgBVAHMAZQByBAoAdQBzAGUAcgBpAGQAVAB5AHAAZQAOBA8AaQBuAHAAdQB0AFUAcwBlAHIAaQBkAFMAaQBnAG4AQwQIAHAAYQBzAHMAdwBvAHIAZAQfAG8AdgBlAHIAcgBpAGQAZQBDAHIAZQBkAGUAbgB0AGkAYQBsAHMALgAkAGQAYgBQAGEAcwBzAHcAbwByAGQEDABwAGEAcwBzAHcAbwByAGQAVAB5AHAAZQAOBBEAaQBuAHAAdQB0AFAAYQBzAHMAdwBvAHIAZABTAGkAZwBuAEkEEABkAGUAcwBpAGcAbgBUAGkAbQBlAEwAbwBjAGEAbABlBAUAZQBuAF8AVQBTAgAEGQBhAGQAYQBwAHQAZQByAFMAZQByAHYAaQBjAGUATgBvAGQAZQBWAGUAcgBzAGkAbwBuCwQAAAACBAsAYQBkAGEAcAB0AGUAcgBUAHkAcABlBAsASgBEAEIAQwBBAGQAYQBwAHQAZQByBA8AaQBuAHAAdQB0AFIAZQBjAG8AcgBkAE4AYQBtAGUEEQBkAGIAQwBvAG4AbgBlAGMAdABpAG8AbgBJAG4AcAB1AHQEEABvAHUAdABwAHUAdABSAGUAYwBvAHIAZABOAGEAbQBlBBIAZABiAEMAbwBuAG4AZQBjAHQAaQBvAG4ATwB1AHQAcAB1AHQCAA==</value>
+  <value name="IRTNODE_PROPERTY">CwQAAAABBQEEGQBjAG8AbQAuAHcAbQAuAGQAYQB0AGEALgBJAFMATQBlAG0ARABhAHQAYQBJAG0AcABsBBMAcwBlAHIAdgBpAGMAZQBUAGUAbQBwAGwAYQB0AGUATgBhAG0AZQQlAGMAbwBtAC4AdwBtAC4AYQBkAGEAcAB0AGUAcgAuAHcAbQBqAGQAYgBjAC4AcwBlAHIAdgBpAGMAZQBzAC4ASQBuAHMAZQByAHQEDwBtAGUAdABhAGQAYQB0AGEAVgBlAHIAcwBpAG8AbgsEAAAAAAQOAGMAbwBuAG4AZQBjAHQAaQBvAG4ATgBhAG0AZQRbAGUAZABnAGUALgBhAHYAcwBlAGUAZABnAGUAcAByAG8AagBlAGMAdAAuAFcAbQBKAEQAQgBDAEEAZABhAHAAdABlAHIALgBjAG8AbQBfAHcAbQBfAGEAZABhAHAAdABlAHIAXwB3AG0AagBkAGIAYwBfAEoARABCAEMAQQBkAGEAcAB0AGUAcgAuAGMAbwBuAG4AZQBjAHQAaQBvAG4AcwA6AEQAYQB0AGEAYgBhAHMAZQBfADMEEgB0AGUAbQBwAGwAYQB0AGUAUAByAG8AcABlAHIAdABpAGUAcwUBAAIEEABkAGUAcwBpAGcAbgBUAGkAbQBlAEwAbwBjAGEAbABlBAUAZQBuAF8AVQBTBBEAaQBuAHAAdQB0AFAAYQBzAHMAdwBvAHIAZABTAGkAZwBuBB8AbwB2AGUAcgByAGkAZABlAEMAcgBlAGQAZQBuAHQAaQBhAGwAcwAuACQAZABiAFAAYQBzAHMAdwBvAHIAZAQMAHAAYQBzAHMAdwBvAHIAZABUAHkAcABlBBAAagBhAHYAYQAuAGwAYQBuAGcALgBTAHQAcgBpAG4AZwQIAHAAYQBzAHMAdwBvAHIAZAAPBA8AaQBuAHAAdQB0AFUAcwBlAHIAaQBkAFMAaQBnAG4EGwBvAHYAZQByAHIAaQBkAGUAQwByAGUAZABlAG4AdABpAGEAbABzAC4AJABkAGIAVQBzAGUAcgQKAHUAcwBlAHIAaQBkAFQAeQBwAGUAEQQGAHUAcwBlAHIAaQBkABUEFgByAGUAcwB1AGwAdAAuAHIAZQBzAHUAbAB0AEYAaQBlAGwAZABUAHkAcABlBBEAagBhAHYAYQAuAGwAYQBuAGcALgBJAG4AdABlAGcAZQByBBIAcgBlAHMAdQBsAHQALgByAGUAcwB1AGwAdABGAGkAZQBsAGQEAAQTAHUAcABkAGEAdABlAC4AcQB1AGUAcgB5AFQAaQBtAGUATwB1AHQLBP////8EFQB1AHAAZABhAHQAZQAuAGkAbgBwAHUAdABGAGkAZQBsAGQAVAB5AHAAZQoDABEAEQARABsEEQB1AHAAZABhAHQAZQAuAGkAbgBwAHUAdABGAGkAZQBsAGQKAwARBAQAWgBvAG4AZQQIAEMAYQB0AGUAZwBvAHIAeQQIAEQAaQBzAGMAbwB1AG4AdAQUAHUAcABkAGEAdABlAC4AaQBuAHAAdQB0AEoARABCAEMAVAB5AHAAZQoDABEECABOAFYAQQBSAEMASABBAFIALwQHAEkATgBUAEUARwBFAFIEFgB1AHAAZABhAHQAZQAuAGkAbgBwAHUAdABDAG8AbAB1AG0AbgBUAHkAcABlCgMAEQQRAG4AdgBhAHIAYwBoAGEAcgAoADUAMAApACAATgBVAEwATAA1BAgAaQBuAHQAIABOAFUATABMBBIAdQBwAGQAYQB0AGUALgBpAG4AcAB1AHQAQwBvAGwAdQBtAG4KAwARACkAKgArBBEAdQBwAGQAYQB0AGUALgBlAHgAcAByAGUAcwBzAGkAbwBuCgMAEQQBAD8AQQBBBA8AdQBwAGQAYQB0AGUALgBKAEQAQgBDAFQAeQBwAGUKAwARAC8ALwAxBBEAdQBwAGQAYQB0AGUALgBjAG8AbAB1AG0AbgBUAHkAcABlCgMAEQA1ADUANwQNAHUAcABkAGEAdABlAC4AYwBvAGwAdQBtAG4KAwARACkAKgArBBUAdABhAGIAbABlAHMALgByAGUAYQBsAFMAYwBoAGUAbQBhAE4AYQBtAGUKAQARBAMAZABiAG8EEQB0AGEAYgBsAGUAcwAuAGMAbwBsAHUAbQBuAEkAbgBmAG8KAQARBGoAWgBvAG4AZQBcAG4AbgB2AGEAcgBjAGgAYQByACgANQAwACkAIABOAFUATABMAFwAbgAtADkAXABuADEAXABuACIAXABuAAoAQwBhAHQAZQBnAG8AcgB5AFwAbgBuAHYAYQByAGMAaABhAHIAKAA1ADAAKQAgAE4AVQBMAEwAXABuAC0AOQBcAG4AMgBcAG4AIgBcAG4ACgBEAGkAcwBjAG8AdQBuAHQAXABuAGkAbgB0ACAATgBVAEwATABcAG4ANABcAG4AMwBcAG4AIgBcAG4ACgQQAHQAYQBiAGwAZQBzAC4AdABhAGIAbABlAFQAeQBwAGUKAQARBAUAVABBAEIATABFBBAAdABhAGIAbABlAHMALgB0AGEAYgBsAGUATgBhAG0AZQoBABEEEgBaAG8AbgBlAF8ARABpAHMAYwBvAHUAbgB0AF8ATQBhAHAAcwQRAHQAYQBiAGwAZQBzAC4AcwBjAGgAZQBtAGEATgBhAG0AZQoBABEAWQQSAHQAYQBiAGwAZQBzAC4AYwBhAHQAYQBsAG8AZwBOAGEAbQBlCgEAEQQMAE8AcgBpAGcAaQBuAEQAZQBtAG8ARABiBBMAdABhAGIAbABlAHMALgB0AGEAYgBsAGUASQBuAGQAZQB4AGUAcwoBABEAZQIABBkAYQBkAGEAcAB0AGUAcgBTAGUAcgB2AGkAYwBlAE4AbwBkAGUAVgBlAHIAcwBpAG8AbgsEAAAAAgQLAGEAZABhAHAAdABlAHIAVAB5AHAAZQQLAEoARABCAEMAQQBkAGEAcAB0AGUAcgQPAGkAbgBwAHUAdABSAGUAYwBvAHIAZABOAGEAbQBlBBEAZABiAEMAbwBuAG4AZQBjAHQAaQBvAG4ASQBuAHAAdQB0BBAAbwB1AHQAcAB1AHQAUgBlAGMAbwByAGQATgBhAG0AZQQSAGQAYgBDAG8AbgBuAGUAYwB0AGkAbwBuAE8AdQB0AHAAdQB0AgA=</value>
 </Values>
