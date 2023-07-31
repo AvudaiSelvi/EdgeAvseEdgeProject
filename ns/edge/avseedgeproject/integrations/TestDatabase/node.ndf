@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">avse</value>
-    <value name="lastModifiedDate">1690818526006</value>
+    <value name="lastModifiedDate">1690818600971</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">bfc8400bd58144b2b6c5b1ce9e87b491</value>
       <null name="group"/>
